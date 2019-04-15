@@ -1,5 +1,3 @@
-# PythonProject
-Used to store my project details in INSAID
 # PEOPLE ANALYTICS WITH ATTRITION PREDICTION
 ![image.png](images/HRTalent.png)
 

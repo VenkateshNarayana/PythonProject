@@ -49,7 +49,7 @@ An analysis was done on the Master Channel list to see what offerings are availa
    - Option 2 : Use the pyPackRecommendation tool to achieve the benefits of using packs which offer lesser cost and try to reduce the cost by 10 to 20%. __140 Rs__(assuming a 20% reduction) to __158 Rs__(assuming a 10% reduction)__
 The above 2 recommendations if implemented correctly would bring down the cost in the range of __295 Rs to 312 Rs__.  But, this is still an increase of 45 Rs to 60 Rs when compared with consumers benchmark of 250 Rs. 
 
-- The final conclusion is that even after following TRAI's recommendation of keeping the channel count under 50 and using optimization tools such as pyPackRecommendation the user will still see an __increase cost of cable fees__ when he compares it with his benchmark of 250 Rs. However, it __will not increase 2-3 times more__ as feared.
+- The final conclusion is that even after following TRAI's recommendation of keeping the channel count under 50 and using optimization tools such as pyPackRecommendation the user will still see an __increase cost of cable fees__ when he compares it with his benchmark of 250 Rs. However, it __will not increase 2-3 times more__ as feared if they follow TRAIs recommendation of chosing the right count of channels(around 50) and use the optimisation tools to further reduce the cost through Pack/Bouquet selections.
 
 [Jupyter Notebook](./EDAReport/EDAnotebookTRAI-Usecase-Ver3.ipynb)
 

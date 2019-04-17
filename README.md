@@ -17,7 +17,7 @@ An analysis was done on the Master Channel list to see what offerings are availa
 
 ## DATA
 | Column Name         | Description                                               |
-| ------------------- |:-------------                                            :| 
+| ------------------- |:-------------                                             | 
 | Pack_Name           | Channel Name                                              | 
 | Pack_Value          | Monthly Cost                                              |  
 | Monthly_Cost_in_Rs  | Cost per month                                            | 
@@ -30,15 +30,23 @@ An analysis was done on the Master Channel list to see what offerings are availa
 ## PROJECT ANALYSIS
 | Description | Analysis |
 | --- | --- |
-| hr_data.head | ![image.png](images/head.png) |
-| dummies | ![image.png](images/dummies.png) |
-| final | ![image.png](images/final.png) |
+| Channels_Data.head | ![image.png](images/PrimaryMasterData.png) |
+| Sample_Data | ![image.png](images/SampleUsers.png) |
 
-### FEATURE IMPORTANCE
+
+### CONCLUSION
 ![image.png](images/feature.png)
-- We saw how we can avoid using correlated values and why it is important not to use those while modelling. 
-- We used Random forest and learned how it can be very advantageous over other available machine learning algorithm. 
-- Most of all we found factors which are most important to employees and if are not fulfilled might lead to Attrition.
+- From the analysis done it is deduced that the average cost would be around 340 Rs ( for an average of 28 paid channels selected with a Genre distribution of GEC (36%) ,Movies (14%) ,News (13%) ,Music (11%) ,Kids (12%) ,Infotainment (10%) ,Sports (3%) and Lifestyle (1%)).And keeping an variance of +/- 20% variance to get the range as __301.40 Rs to 370.40 Rs__.
 
-[Jupyter Notebook](./HR_Analytics.ipynb)
+- This indicates that the users will be seeing an increase in the cost of cable fees in the range of __50 Rs to 120 Rs__ when he is comparing it with his benchmark of __250 Rs__
+ 
+- Below 2 options are suggested to help reduce this cost further.
+   - Option 1 : As prescribed by TRAI – try to keep the channel list around 50. Filter out the list channels which are only absolutely needed and discard the ones which we seldom or rarely watch. This if done wisely can reduce the cost by 5-10 %. which means the 185 can be further reduced in the range of  __165 Rs__ (10%) to __175 Rs__(5%).
+
+   - Option 2 : Use the pyPackRecommendation tool to achieve the benefits of using packs which offer lesser cost and try to reduce the cost by 10 to 20%. __140 Rs__(assuming a 20% reduction) to __158 Rs__(assuming a 10% reduction)__
+The above 2 recommendations if implemented correctly would bring down the cost in the range of __295 Rs to 312 Rs__.  But, this is still an increase of 45 Rs to 60 Rs when compared with consumers benchmark of 250 Rs. 
+
+- The final conclusion is that even after following TRAI's recommendation of keeping the channel count under 50 and using optimization tools such as pyPackRecommendation the user will still see an __increase cost of cable fees__ when he compares it with his benchmark of 250 Rs. However, it __will not increase 2-3 times more__ as feared.
+
+[Jupyter Notebook](./EDAReport/EDAnotebookTRAI-Usecase-Ver3.ipynb)
 

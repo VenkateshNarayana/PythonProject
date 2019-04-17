@@ -1,7 +1,6 @@
 # IMPACT ANALYSIS OF COST OF CABLE(DTH) FEES
 <p align="center">
   <img width="460" height="300" src="images/TRAIsNewRules.jpg">
-  ![image.png](images/TRAIsNewRules.jpg)
 </p>
 
 

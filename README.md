@@ -1,24 +1,31 @@
-# PEOPLE ANALYTICS WITH ATTRITION PREDICTION
-![image.png](images/TRAIsNewRules.jpeg)
+# IMPACT ANALYSIS OF COST OF CABLE(DTH) FEES
+![image.png](images/TRAIsNewRules.jpg)
 
 ## INTRODUCTION
-Every year a lot of companies hire a number of employees. The companies __invest__ time and money in __training__ those employees, not just this but there are __training programs__ within the companies for their existing employees as well. The __aim__ of these programs is to __increase the effectiveness__ of their employees. 
-- But where __HR Analytics__ fit in this? 
-- and is it just about __improving__ the performance of employees?
+The Telecom Regulatory Authority of India (TRAI) recently drafted new regulations and directed various DTH service providers and operators to implement them. These regulations were set up to ensure all operators in the DTH and cable ecosystem get a fair share of earnings. 
+The immediate benefit will be passed to consumers as they get to choose what they want to watch and pay for it accordingly. The new plans are already in existence since February 1, 2019.
+
+Though TRAI’s intent was to provide benefits to the Consumer, Service Providers and Broadcasters, but there has been a growing concern from the consumers around the increased cost of cable fees which they have to pay under the new cost structure.
+
+-__Key concern :__ Why do we have to pay more now? 
+  - It is estimated that the average cable fees was around 250 Rs where an consumer was able to watch all the channels. But now, consumers are complaining that now they have to more 2 to 4 times more for the same choice. 
+  - Is this a fair deal?
+
+An analysis was done on the Master Channel list to see what offerings are available in Pay and Free channels. And also to test TRAIs few recommendations like choosing your channels wisely and limited to 50 channels (as the survey suggests "around 90% of an average viewer does not watch more than 50 channels") and verify the below 2 primary concerns (by studying sample data - using live user selection), 
+- can we beat (250 Rs) as this is the benchmark consumers have set(this is cable fee that they used pay)?
+- Is it going to cost 2-4 times more as most of consumers fear?
 
 ## DATA
-| Column Name | Description |
-| --- | --- |
-| `AGE` | Numerical Value |
-| `ATTRITION` | Employee leaving the Company (0=no, 1=yes) |
-| `BUSINESS TRAVEL`| (1= No Travel, 2= Travel Frequency, 3= Travel rarely)|
-| `JOB ROLE` | (1=HC REP, 2=HR, 3=LAB TECHNICIAN, 4=MANAGER, 5= MANAGING DIRECTOR, 6= REASEARCH DIRECTOR, 7= RESEARCH SCIENTIST, 8=SALES EXECUTIEVE, 9= SALES REPRESENTATIVE) |
-| `MARITAL STATUS` | (1=DIVORCED, 2=MARRIED, 3=SINGLE) |
-| `GENDER` | (1=FEMALE, 2=MALE) |
-| `OVER 18` | 1=YES, 2=NO) |
-| `OVERTIME` | (1=NO, 2=YES) |
-| `EDUCATION FIELD` | (1=HR, 2=LIFE SCIENCES, 3=MARKETING, 4=MEDICAL SCIENCES, 5=OTHERS, 6= TEHCNICAL) |
-| `DEPARTMENT` | (1=HR, 2=R&D, 3=Sales) |
+| Column Name         | Description                                               |
+| ------------------- |:-------------                                            :| 
+| Pack_Name           | Channel Name                                              | 
+| Pack_Value          | Monthly Cost                                              |  
+| Monthly_Cost_in_Rs  | Cost per month                                            | 
+| Choose_Yes_No       | Wishlist selection                                        |   
+| Channel_Genre       | Genre - movies,music,sports,infotainment etc              |
+| Channel_Language    | Primary Language                                          |
+| Channel_Type        | Standard Definition(SD) or High Definition(HD)            |
+
 
 ## PROJECT ANALYSIS
 | Description | Analysis |

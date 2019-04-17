@@ -1,5 +1,9 @@
 # IMPACT ANALYSIS OF COST OF CABLE(DTH) FEES
-![image.png](images/TRAIsNewRules.jpg)
+<p align="center">
+  <img width="460" height="300" src="images/TRAIsNewRules.jpg">
+  ![image.png](images/TRAIsNewRules.jpg)
+</p>
+
 
 ## INTRODUCTION
 The Telecom Regulatory Authority of India (TRAI) recently drafted new regulations and directed various DTH service providers and operators to implement them. These regulations were set up to ensure all operators in the DTH and cable ecosystem get a fair share of earnings. 

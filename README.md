@@ -35,7 +35,7 @@ An analysis was done on the Master Channel list to see what offerings are availa
 
 
 ### CONCLUSION
-![image.png](images/feature.png)
+
 - From the analysis done it is deduced that the average cost would be around 340 Rs ( for an average of 28 paid channels selected with a Genre distribution of GEC (36%) ,Movies (14%) ,News (13%) ,Music (11%) ,Kids (12%) ,Infotainment (10%) ,Sports (3%) and Lifestyle (1%)).And keeping an variance of +/- 20% variance to get the range as __301.40 Rs to 370.40 Rs__.
 
 - This indicates that the users will be seeing an increase in the cost of cable fees in the range of __50 Rs to 120 Rs__ when he is comparing it with his benchmark of __250 Rs__

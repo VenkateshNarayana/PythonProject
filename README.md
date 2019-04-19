@@ -51,5 +51,13 @@ The above 2 recommendations if implemented correctly would bring down the cost i
 
 - The final conclusion is that even after following TRAI's recommendation of keeping the channel count under 50 and using optimization tools such as pyPackRecommendation the user will still see an __increase cost of cable fees__ when he compares it with his benchmark of 250 Rs. However, it __will not increase 2-3 times more__ as feared if they follow TRAIs recommendation of chosing the right count of channels(around 50) and use the optimisation tools to further reduce the cost through Pack/Bouquet selections.
 
+### FUTURE CONSIDERATIONS
+Below are few impacts we see in future and study to conduct.
+
+  - The cost is going to be playing a major role in customers choice of staying with a particular DTH or cable operator and once consumers realise the power of "Packs" and its benefits there will be natural migration to those DTH/Cable operator who offer wide variety (across languages and genre). One of the DTH operator who leads in the race is TataSky 
+  - The consumers will also migrate to new DTH(Airtel,Tatasky etc ) if they dont provide transparency and ease of transactions. The worst affected will be the local cable operators as they are currently doing everything manual and this process takes a lot of time in implementing the new plans which is causing a heart burn among consumers. 
+  - The above study was considered for south region, would like to do the same for north to see if there are major deviations which currently it is assumed to be none.
+
+  
 [Jupyter Notebook](./EDAReport/EDAnotebookTRAI-Usecase-Ver3.ipynb)
 

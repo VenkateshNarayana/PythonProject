@@ -59,5 +59,5 @@ Below are few impacts we see in future and study to conduct.
   - The above study was considered for south region, would like to do the same for north to see if there are major deviations which currently it is assumed to be none.
 
   
-[Jupyter Notebook](./EDAReport/EDAnotebookTRAI-Usecase-Ver3.ipynb)
+[Jupyter Notebook](.Project-Term1/EDAReport/EDAnotebookTRAI-Usecase-Ver3.ipynb)
 

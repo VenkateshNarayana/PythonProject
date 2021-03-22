@@ -17,7 +17,8 @@ Though TRAI’s intent was to provide benefits to the Consumer, Service Provider
 An analysis was done on the Master Channel list to see what offerings are available in Pay and Free channels. And also to test TRAIs few recommendations like choosing your channels wisely and limited to 50 channels (as the survey suggests "around 90% of an average viewer does not watch more than 50 channels") and verify the below 2 primary concerns (by studying sample data - using live user selection), 
 - can we beat (250 Rs) as this is the benchmark consumers have set(this is cable fee that they used pay)?
 - Is it going to cost 2-4 times more as most of consumers fear?
-
+- EDA using tableau to check if the channels offered across different regions under SD and HD had equal distribution and if they had enough to choose from paid and free channels.
+- EDA Tableau Dashboard Link : https://public.tableau.com/profile/venkateshnarayana#!/vizhome/ImpactAnalysisonCableFee/ImpactAnalysisofCostOnCableFees?publish=yes 
 ## DATA
 | Column Name         | Description                                               |
 | ------------------- |:-------------                                             | 
@@ -33,8 +34,9 @@ An analysis was done on the Master Channel list to see what offerings are availa
 ## PROJECT ANALYSIS
 | Description | Analysis |
 | --- | --- |
-| Channels_Data.head | ![image.png](images/PrimaryMasterData.png) |
-| Sample_Data | ![image.png](images/SampleUsers.png) |
+| EDA-Tableau Dashboard   | ![image.png](images/CostImpactDashboard.jpg) |
+| Channels_Data.head      | ![image.png](images/PrimaryMasterData.png) |
+| Sample_Data             | ![image.png](images/SampleUsers.png) |
 
 
 ### CONCLUSION
